@@ -1,3 +1,5 @@
+[![Build status](https://ci.appveyor.com/api/projects/status/2t6n7l0juui4r5dd?svg=true)](https://ci.appveyor.com/project/Megalapka/java-aqa2-3-patterns-task1)
+
 # Домашнее задание к занятию «2.3. Patterns»
 
 В качестве результата пришлите ссылку на ваш GitHub-проект в личном кабинете студента на сайте [netology.ru](https://netology.ru).
