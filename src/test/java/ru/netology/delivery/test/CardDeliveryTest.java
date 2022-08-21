@@ -10,7 +10,6 @@ import org.openqa.selenium.Keys;
 import ru.netology.delivery.data.DataGenerator;
 
 import java.time.Duration;
-import java.time.LocalDate;
 
 
 import static com.codeborne.selenide.Condition.text;
@@ -25,10 +24,10 @@ public class CardDeliveryTest {
 
     }
 
-//    @AfterEach
-//    void tearDown() {
-//        closeWindow();
-//    }
+    @AfterEach
+    void tearDown() {
+        closeWindow();
+    }
 
 
     @Test
