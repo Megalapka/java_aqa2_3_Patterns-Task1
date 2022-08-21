@@ -34,7 +34,7 @@ public class CardDeliveryTest {
     @DisplayName("Should successful plan and replan meeting")
     void shouldSuccessfulPlanAndReplanMeeting() {
 
-        $("[data-test-id='city'] .input__control").setValue(DataGenerator.generateCity("ru"));
+        $("[data-test-id='city'] .input__control").setValue(DataGenerator.generateCity());
         $(".menu-item__control").click();
 
         var daysToAddForFirstMeeting = 4;

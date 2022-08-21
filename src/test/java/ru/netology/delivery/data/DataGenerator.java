@@ -7,8 +7,7 @@ import lombok.val;
 
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
-import java.util.Locale;
-import java.util.Random;
+import java.util.*;
 
 public class DataGenerator {
     private DataGenerator() {
@@ -20,11 +19,36 @@ public class DataGenerator {
         return newDate;
     }
 
-    public static String generateCity(String locale) {
-        // TODO: добавить логику для объявления переменной city и задания её значения, генерацию можно выполнить
-        // с помощью Faker, либо используя массив валидных городов и класс Random
+    public static String generateCity() {
 
-        String city = "Санкт-Петербург";
+        ArrayList<String> cityList = new ArrayList<>();
+        cityList.add("Абакан");
+        cityList.add("Анадырь");
+        cityList.add("Архангельск");
+        cityList.add("Астрахань");
+        cityList.add("Барнаул");
+        cityList.add("Белгород");
+        cityList.add("Биробиджан");
+        cityList.add("Благовещенск");
+        cityList.add("Брянск");
+        cityList.add("Великий Новгород");
+        cityList.add("Владивосток");
+        cityList.add("Владикавказ");
+        cityList.add("Владимир");
+        cityList.add("Волгоград");
+        cityList.add("Вологда");
+        cityList.add("Воронеж");
+        cityList.add("Горно-Алтайск");
+        cityList.add("Грозный");
+        cityList.add("Екатеринбург");
+        cityList.add("Иваново");
+        cityList.add("Ижевск");
+        cityList.add("Иркутск");
+        cityList.add("Йошкар-Ола");
+
+        Collections.shuffle(cityList);
+
+        String city = cityList.get(8);
         return city;
     }
 
